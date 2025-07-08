@@ -57,3 +57,10 @@ nav ul li a{
     font-size: 45px;
 
 }
+.banner{
+    display:flex;
+    justify-content:space-between;
+}
+.banner-gret{
+    
+}
