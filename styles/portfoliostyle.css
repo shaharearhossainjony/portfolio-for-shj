@@ -13,7 +13,20 @@
     color:#fd6e0a;
 }
 .dark-2{
-    color:#474747;
+   color:#474747;
+}
+.sectin-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+    
+}
+
+.section-description{
+    font-size:18px;
+    color:#757575;
+
+
 }
 .btn-primary{
    background-color:#fd6e0a;
@@ -24,6 +37,11 @@
    border: none;
    font-size: 20px;
 }
+.secondary-bg{
+    background-color:#FFF8F3;
+}
+
+
 /* header styles */
 .header{
     background-image:url("../images/developer.png"),url("../images/header_bg.png");
@@ -95,3 +113,30 @@ nav ul li a{
 .banner-profile{
     width:580px;
 }
+/* main styles */
+
+main{
+    max-width:1140px;
+    margin: 0px auto;
+    background-color:white;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px; 
+    margin-top: 130px;
+
+}
+.item-description{
+    font-weight:600;
+
+}
+
+.about-items{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
